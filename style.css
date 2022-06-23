@@ -1,4 +1,42 @@
-p
+body
 {
-    color: red;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+#container1
+{
+    display: flex;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half_width
+{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.half_width img
+{
+    width: 80%;
+}
+.heading
+{
+    font-size: 40px;
+}
+#span1
+{
+    color: orange;
+}
+#link1
+{
+    text-decoration: none;
+    background-image: linear-gradient(blue, pink);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
 }
