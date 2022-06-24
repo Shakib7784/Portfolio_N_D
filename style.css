@@ -10,8 +10,10 @@ body
 #container1
 {
     display: flex;
+    
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+
 }
 .half_width
 {
@@ -39,4 +41,36 @@ body
     border-radius: 10px;
     color: white;
     font-weight: bolder;
+}
+#container2
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.p
+{
+    text-align: justify;
+    width: 80%;
+}
+#link2
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange,skyblue);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+#container3
+{
+    
+}
+#last
+{
+    display: flex;
 }
